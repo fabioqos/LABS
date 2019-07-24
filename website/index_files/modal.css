@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* Scss Document */
+.hide-all { display: none !important; }
+.modal-unit-wap { font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif"; position: fixed; width: 100%; height: auto;  top: 0; bottom: 0; left: 260px; right: 0; z-index: 11000; display: none; }
+.modal-unit-wap h1 { font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif"; margin: 0; padding: 0; line-height: 1.2; color: #1C2E52; font-weight: 600;}
+.modal-unit-wap h2 { font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: #00A8BD; line-height: 1.2; font-weight: 600;}
+.modal-unit-wap p { font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: #1C2E52; line-height: 1.2; }
+.modal-unit-wap a.cta { width: 100%; }
+.modal-unit-wap .background-white { background-color: #FFFFFF!important; }
+.modal-unit-wap .modal-container { width: 100%; height: 100%; left: 0; right: 0; top: 0; margin: auto; position: absolute; z-index: 2; line-height: 1; overflow-y: scroll; background-image: url('https://www.cua.com.au/__data/assets/image/0022/214663/wap-background-image.png'); background-repeat: no-repeat; background-position: 116% 200px; background-size: 62%;}
+/*.modal-unit-wap .modal-container .close-modal { top: -3px; right: -12px; position: absolute; text-decoration: none; height: 40px; }*/
+.modal-unit-wap .modal-container .close-modal {position: absolute; top: 20px; right: 18px;}
+.modal-unit-wap .modal-container .close-modal:before { content: '×'; font-size: 3.5rem; line-height: 40px; height: 40px; display: inline-block; color: #00A8BD; }
+.modal-unit-wap.is-active { display: block; }
+.modal-unit-wap .modal-title-1 { padding: 20px 5px 6px 20px; }
+.modal-unit-wap .modal-title-2 { padding: 5px 5px 0px 20px; }
+.modal-unit-wap .modal-title-3 { padding: 0px 0px 12px 20px; }
+.modal-unit-wap .modal-title-4 { padding: 0px 5px 24px 20px; }
+.modal-unit-wap .modal-tile-1 { background-color: #F1F1F1; }
+.modal-unit-wap .modal-tile-2 { background-color: #e9e9e9; }
+.modal-unit-wap .modal-tile-3 { background-color: #dddddd; }
+.modal-unit-wap .modal-tile-3 .continue-c-1 { font-size: 17px; letter-spacing: -1px; padding: 12px 0; color: #494949; font-weight: 500; }
+.modal-unit-wap .modal-tile-1, .modal-unit .modal-tile-2, .modal-unit .modal-tile-3 { padding: 24px; }
+.modal-unit-wap .modal-background { background: black; opacity: 0.5; z-index: 1; position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto; }
+.modal-unit-wap .tile-content .text { font-size: 17px; letter-spacing: -1px; color: #494949; font-weight: 500; margin-top: 4px; margin-bottom: 24px; }
+.modal-unit-wap .modal-content-wrapper { padding: 0 24px 24px 24px; }
+.logo-platforms {width: 40px;}
+.modal-unit-wap .modal-title-1 h2 {margin: 5px 0 0 0;}
+.modal-unit-wap .continue-browser a{color: #00A8BD; text-decoration: underline;}
+.modal-unit-wap .modal-title-4 center {padding-top: 20px;}
+    
+/*@media only screen and (min-width: 768px) {  line 792, ../sass/screen.scss */
+/*  .modal-unit .modal-container { width: 600px; height: auto; top: 15%; }*/
+/*  .modal-unit .modal-container .modal-tile-3 { background-color: #dddddd; }*/
+/*  .modal-unit .modal-container .modal-tile-3 .continue-c-1 { padding-right: 24px; font-size: 17px; letter-spacing: -1px; padding: 12px 0; color: #494949; font-weight: 500; }*/
+/*  .modal-unit .modal-container .modal-tile-3 .continue-c-2 { padding-left: 24px; }*/
+/*  .modal-content-wrapper { padding: 0 0 0 0 !important; } }*/
+/*@media only screen and (min-width: 1248px) { .modal-unit .modal-container { width: 600px; top: 15%; height: auto; overflow: auto; } }*/
+
+@media only screen and (max-width: 320px) { 
+ .continue-browser{ text-align: center; width: 90%;}
+}
+@media only screen and (max-width: 374px) { 
+    
+    .large-phone {display: none;}
+}
+
+@media only screen and (min-width: 321px) { 
+    
+    .continue-browser{ text-align: left; width: 70%;}
+}
